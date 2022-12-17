@@ -263,7 +263,7 @@ function library:Load(opts)
         TextSize = 14,
         TextColor3 = theme.TextColor,
         Text = name,
-        Font = Enum.Font.SourceSans,
+        Font = Enum.Font.Highway,
         TextXAlignment = Enum.TextXAlignment.Left,
         ZIndex = 2,
         Parent = holder
@@ -345,7 +345,7 @@ function library:Load(opts)
             TextSize = 12,
             TextColor3 = toggled and theme.EnabledText or theme.DisabledText,
             Text = name,
-            Font = Enum.Font.SourceSans,
+            Font = Enum.Font.Highway,
             Parent = tabToggles
         })
 
@@ -491,7 +491,7 @@ function library:Load(opts)
                 TextSize = 12,
                 TextColor3 = theme.TextColor,
                 Text = name,
-                Font = Enum.Font.SourceSans,
+                Font = Enum.Font.Highway,
                 TextXAlignment = Enum.TextXAlignment.Left,
                 Parent = section
             })
@@ -534,7 +534,7 @@ function library:Load(opts)
                     TextSize = 12,
                     Text = text,
                     TextColor3 = theme.TextColor,
-                    Font = Enum.Font.SourceSans,
+                    Font = Enum.Font.Highway,
                     TextXAlignment = Enum.TextXAlignment.Left,
                     Parent = sectionContent
                 })
@@ -566,7 +566,7 @@ function library:Load(opts)
                     TextSize = 12,
                     Text = name,
                     TextColor3 = theme.TextColor,
-                    Font = Enum.Font.SourceSans,
+                    Font = Enum.Font.Highway,
                     ClipsDescendants = true,
                     Parent = sectionContent
                 })
@@ -618,7 +618,7 @@ function library:Load(opts)
                     FontSize = Enum.FontSize.Size14,
                     TextSize = 14,
                     Text = "",
-                    Font = Enum.Font.SourceSans,
+                    Font = Enum.Font.Highway,
                     Parent = sectionContent
                 })
 
@@ -644,7 +644,7 @@ function library:Load(opts)
                     TextSize = 12,
                     TextColor3 = theme.DisabledText,
                     Text = name,
-                    Font = Enum.Font.SourceSans,
+                    Font = Enum.Font.Highway,
                     TextXAlignment = Enum.TextXAlignment.Left,
                     Parent = icon
                 })
@@ -717,7 +717,7 @@ function library:Load(opts)
                     TextSize = 12,
                     TextColor3 = theme.TextColor,
                     Text = "",
-                    Font = Enum.Font.SourceSans,
+                    Font = Enum.Font.Highway,
                     PlaceholderText = placeholder,
                     Parent = sectionContent
                 })
@@ -827,7 +827,7 @@ function library:Load(opts)
                     TextSize = 12,
                     TextColor3 = theme.TextColor,
                     Text = name .. ": " .. default .. valueType,
-                    Font = Enum.Font.SourceSans,
+                    Font = Enum.Font.Highway,
                     Parent = slider
                 })
 
@@ -936,7 +936,7 @@ function library:Load(opts)
                     TextSize = 12,
                     TextColor3 = theme.TextColor,
                     Text = "",
-                    Font = Enum.Font.SourceSans,
+                    Font = Enum.Font.Highway,
                     Parent = sectionContent
                 })
                 
@@ -955,7 +955,7 @@ function library:Load(opts)
                     TextSize = 12,
                     TextColor3 = default and theme.EnabledText or theme.DisabledText,
                     Text = default or "NONE",
-                    Font = Enum.Font.SourceSans,
+                    Font = Enum.Font.Highway,
                     TextXAlignment = Enum.TextXAlignment.Left,
                     Parent = dropdown
                 })
@@ -1031,7 +1031,7 @@ function library:Load(opts)
                         TextSize = 12,
                         TextColor3 = v == default and theme.EnabledText or theme.DisabledText,
                         Text = v,
-                        Font = Enum.Font.SourceSans,
+                        Font = Enum.Font.Highway,
                         TextXAlignment = Enum.TextXAlignment.Left,
                         Parent = contentHolder
                     })
@@ -1259,7 +1259,7 @@ function library:Load(opts)
                         TextSize = 12,
                         TextColor3 = theme.DisabledText,
                         Text = opt,
-                        Font = Enum.Font.SourceSans,
+                        Font = Enum.Font.Highway,
                         TextXAlignment = Enum.TextXAlignment.Left,
                         Parent = contentHolder
                     })
@@ -1419,7 +1419,7 @@ function library:Load(opts)
                             TextSize = 12,
                             TextColor3 = v == default and theme.EnabledText or theme.DisabledText,
                             Text = v,
-                            Font = Enum.Font.SourceSans,
+                            Font = Enum.Font.Highway,
                             TextXAlignment = Enum.TextXAlignment.Left,
                             Parent = contentHolder
                         })
@@ -1614,7 +1614,7 @@ function library:Load(opts)
                     TextSize = 12,
                     TextColor3 = theme.TextColor,
                     Text = "Keybind",
-                    Font = Enum.Font.SourceSans,
+                    Font = Enum.Font.Highway,
                     TextXAlignment = Enum.TextXAlignment.Left,
                     Parent = sectionContent
                 })
@@ -1629,7 +1629,7 @@ function library:Load(opts)
                     TextSize = 12,
                     TextColor3 = default and theme.EnabledText or theme.DisabledText,
                     Text = default and (keys[default] or tostring(default):gsub("Enum.KeyCode.", "")) or "NONE",
-                    Font = Enum.Font.SourceSans,
+                    Font = Enum.Font.Highway,
                     TextXAlignment = Enum.TextXAlignment.Right,
                     Parent = keybind
                 })
@@ -1801,7 +1801,7 @@ function library:Load(opts)
                     TextSize = 12,
                     TextColor3 = theme.DisabledText,
                     Text = name,
-                    Font = Enum.Font.SourceSans,
+                    Font = Enum.Font.Highway,
                     TextXAlignment = Enum.TextXAlignment.Left,
                     Parent = icon
                 })
@@ -1816,7 +1816,7 @@ function library:Load(opts)
                     TextSize = 12,
                     TextColor3 = default and theme.EnabledText or theme.DisabledText,
                     Text = default and (keys[default] or tostring(default):gsub("Enum.KeyCode.", "")) or "NONE",
-                    Font = Enum.Font.SourceSans,
+                    Font = Enum.Font.Highway,
                     TextXAlignment = Enum.TextXAlignment.Right,
                     Parent = toggleKeybind
                 })
@@ -1963,7 +1963,7 @@ function library:Load(opts)
                     TextSize = 12,
                     TextColor3 = theme.TextColor,
                     Text = name,
-                    Font = Enum.Font.SourceSans,
+                    Font = Enum.Font.Highway,
                     TextXAlignment = Enum.TextXAlignment.Left,
                     Parent = sectionContent
                 })
@@ -2087,7 +2087,7 @@ function library:Load(opts)
                     TextColor3 = theme.TextColor,
                     Text = tostring(math.floor(default.R * 255)) .. ", " .. tostring(math.floor(default.G * 255)) .. ", " .. tostring(math.floor(default.B * 255)),
                     ClearTextOnFocus = false,
-                    Font = Enum.Font.SourceSans,
+                    Font = Enum.Font.Highway,
                     PlaceholderText = "R,  G,  B",
                     Parent = picker
                 })
@@ -2108,7 +2108,7 @@ function library:Load(opts)
                     TextColor3 = theme.TextColor,
                     Text = utility.rgb_to_hex(default),
                     ClearTextOnFocus = false,
-                    Font = Enum.Font.SourceSans,
+                    Font = Enum.Font.Highway,
                     PlaceholderText = "#FFFFFF",
                     Parent = picker
                 })
@@ -2327,7 +2327,7 @@ function library:Load(opts)
                     FontSize = Enum.FontSize.Size14,
                     TextSize = 14,
                     Text = "",
-                    Font = Enum.Font.SourceSans,
+                    Font = Enum.Font.Highway,
                     Parent = sectionContent
                 })
 
@@ -2353,7 +2353,7 @@ function library:Load(opts)
                     TextSize = 12,
                     TextColor3 = theme.DisabledText,
                     Text = name,
-                    Font = Enum.Font.SourceSans,
+                    Font = Enum.Font.Highway,
                     TextXAlignment = Enum.TextXAlignment.Left,
                     Parent = icon
                 })
@@ -2507,7 +2507,7 @@ function library:Load(opts)
                     TextColor3 = theme.TextColor,
                     Text = tostring(math.floor(default.R * 255)) .. ", " .. tostring(math.floor(default.G * 255)) .. ", " .. tostring(math.floor(default.B * 255)),
                     ClearTextOnFocus = false,
-                    Font = Enum.Font.SourceSans,
+                    Font = Enum.Font.Highway,
                     PlaceholderText = "R,  G,  B",
                     Parent = picker
                 })
@@ -2528,7 +2528,7 @@ function library:Load(opts)
                     TextColor3 = theme.TextColor,
                     Text = utility.rgb_to_hex(default),
                     ClearTextOnFocus = false,
-                    Font = Enum.Font.SourceSans,
+                    Font = Enum.Font.Highway,
                     PlaceholderText = "#FFFFFF",
                     Parent = picker
                 })
